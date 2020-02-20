@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/change_mode"
+        android:title="@string/change_mode"
+        android:icon="@drawable/change"
+        app:showAsAction="ifRoom|withText" />
+
+
+    <!--<item-->
+        <!--android:id="@+id/item_search"-->
+        <!--android:title="@string/memory_search" />-->
+
+    <item
+        android:id="@+id/item_select"
+        android:title="@string/main_Toolbar_select" />
+
+
+    <!--<item-->
+        <!--android:id="@+id/new_memory"-->
+        <!--android:title="@string/memory_add"/>-->
+
+    <item
+        android:id="@+id/set_theme"
+        android:title="@string/memory_set_theme"
+        android:icon="@drawable/theme">
+    </item>
+
+    <item
+        android:id="@+id/pay"
+        android:title="@string/pay">
+    </item>
+
+</menu>

@@ -1,0 +1,87 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application color. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your color here. -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorDark</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <item name="actionBarStyle">@style/toolbar</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--设置工具栏被覆盖-->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+        <!--设置状态栏-->
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
+    </style>
+
+    <style name="PagerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="toolbarStyle">@style/toolbar</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+    </style>
+
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+        <item name="android:textColor">@color/checkbox_color</item>
+    </style>
+
+    <style name="MyDeleteCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/select_checkbox_style</item>
+    </style>
+
+    <style name="toolbar.title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+
+    <style name="toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0sp</item>
+        <item name="android:textSize">20dp</item>
+
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--取消actionBar下面的黑线-->
+
+        <item name="android:paddingLeft">16dp</item>
+    </style>
+
+
+
+    <style name="ImageViewTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+    </style>
+
+
+    <style name="fab_menu_label">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="BottomInAndOutStyle">
+        <item name="android:windowEnterAnimation">@anim/in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/out_bottom</item>
+    </style>
+
+</resources>

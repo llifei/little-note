@@ -1,0 +1,56 @@
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <com.lifeifanzs.memorableintent.Bean.SlideRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/memory_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/memory_noOne"
+            android:layout_width="267dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="36dp"
+            android:gravity="center"
+            android:text="@string/memory_noOne"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/colorGray"
+            app:layout_constraintTop_toTopOf="@+id/memory_recycler_view" />
+
+        <ImageView
+            android:id="@+id/noOne_imgView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/memory_noOne"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/noone_note" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

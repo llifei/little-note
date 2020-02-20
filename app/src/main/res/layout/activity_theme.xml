@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/theme_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/arrow"
+        android:paddingRight="5dp"
+        android:color="@style/toolbar">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RadioGroup
+        android:id="@+id/theme_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theme_toolbar"
+        app:layout_constraintVertical_bias="0.04">
+
+        <RadioButton
+            android:id="@+id/button_white"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+                android:background="@drawable/button_white_bakground"
+            android:button="@null"/>
+
+        <RadioButton
+            android:id="@+id/button_black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="28dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_black_background"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/button_blue"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="28dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_blue_bakground"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/button_green"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="28dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_green_background"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/button_pink"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="28dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_pink_background"
+            android:button="@null" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

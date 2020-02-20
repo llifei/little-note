@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">"小便签"</string>
+    <string name="memory_title_hint">标题</string>
+    <string name="memory_title_label">标题</string>
+    <string name="memory_detail">内容</string>
+    <string name="memory_isOver">不可编辑！</string>
+    <string name="memory_solved_label">完成</string>
+    <string name="memory_remind">提醒</string>
+    <string name="memory_noremind">不提醒</string>
+    <string name="memory_search">搜索</string>
+    <string name="donate_weixin">微信</string>
+    <string name="donate_alipay">支付宝</string>
+    <string name="donate_weixinRemind">二维码已保存到您的相册</string>
+    <string name="donate_text">非常感谢您对这款应用的看好！捐一瓶水吧！这会使我充满动力和信心！</string>
+    <string name="donate_remind">请选择金额</string>
+
+    <string name="donate_one">1元</string>
+    <string name="donate_three">3元</string>
+    <string name="donate_renyi">任意</string>
+    <string name="donate_attention">注意：支付宝只能选择任意</string>
+
+    <string name="paycode_renyi">tsx073992tpzvtiverbbg7f</string>
+    
+    <string name="memory_delete">删除</string>
+    <string name="item_zhiding">置顶</string>
+    <string name="item_zhiding_cancel">取置</string>
+    <string name="memory_save">保存</string>
+    <string name="memory_label">标签</string>
+    <string name="memory_share">分享</string>
+    <string name="memory_insert_image">插入图片</string>
+    <string name="memory_submit">确认</string>
+    
+
+    <string name="main_Toolbar_title">列表</string>
+    <string name="main_Toolbar_select">编辑</string>
+    <string name="change_mode">切换模式</string>
+    <string name="select_Toolbar_all">全选</string>
+    <string name="select_Toolbar_delete">删除</string>
+    <string name="memory_clear">清扫未/已完成</string>
+    <string name="memory_add">"添加</string>
+    <string name="feedback">"反馈</string>
+    <string name="pay">捐赠</string>
+    <string name="memory_set_theme">"主题"</string>
+    <string name="memory_noOne">一条事项都没有哦  点击右下角新建吧</string>
+    <string name="note_noOne">一条便签都没有哦  点击右下角新建吧</string>
+
+    <drawable name="bkcolor_white">@color/colorWhite</drawable>
+    <drawable name="bkcolor_black">@color/colorBlack</drawable>
+    <drawable name="bkcolor_blue">@color/colorBlue2</drawable>
+    <drawable name="bkcolor_green">@color/colorGreen2</drawable>
+    <drawable name="bkcolor_pink">@color/colorPink2</drawable>
+    
+    <string name="pay_success">支付成功</string>
+    <string name="pay_fail">支付失败</string>
+
+    <string name="first_note_title">便签简单说明</string>
+    <string name="first_note_detail">非常感谢您使用这个便签应用，希望它能使您满意！
+下面是便签的一些说明：
+
+ (注意：请谨慎删除条目！删除没有确认提示
+  ！)
+
+列表界面右上方第一个按钮可以切换备忘
+录模式。
+
+列表界面菜单可以：
+     更换主题，主题支持自定义图片；
+     多选删除，一键全选。
+
+列表条目左滑可以置顶或删除。置顶后左
+端有条状颜色标记。
+
+编辑时实时保存，无需确认保存，返回即
+可。
+
+便签的标记默认为 小蓝点，可以点击换色
+ ，有三种颜色，分别为蓝、绿、紫。
+
+编辑界面可以插入图片。
+
+若便签内容修改，条目更新时间为最后修改时
+间。
+
+</string>
+
+    <string name="first_memory_title">备忘录简单说明</string>
+    <string name="first_memory_detail">备忘录模式与便签模式有一些小区别：
+
+备忘录条目不具有圆点标记，被完成标记代替。
+
+可以设置时间和提醒。
+ 进入编辑区 上方左端分别点击日期和时间可分别进行设置。  条目默认设为不提醒，可点击上方右端 “不提醒” 字样设置为提醒，再次点击可取消提醒。(添加系统日历事件提醒)
+
+其他与便签模式几乎无差。
+
+
+</string>
+
+
+</resources>

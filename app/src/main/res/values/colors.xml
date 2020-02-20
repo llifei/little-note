@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#0A0B0B</color>
+    <color name="colorMostDark">#000000</color>
+    <color name="colorDark">#363636</color>
+    <color name="colorAccent">#4169E1</color>
+    <color name="colorGray">#bfbfbf</color>
+    <color name="colorLightGray">#C0C0C0</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorLightDark">#696969</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorLightDark2">#515151</color>
+
+    <color name="colorWXGreen">#18A830</color>
+    <color name="colorALBlue">#00A8F0</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#363636</color>
+    <color name="colorGreen">#92dcbb</color>
+
+    <color name="colorGreen2">#d7f2e6</color>
+    <color name="colorLightYellow">#FFD8C0</color>
+    
+    <color name="colorBlue2">#c3e8f8</color>
+    <color name="colorYellow">#FFC048</color>
+
+    <color name="colorPink2">#FEDAFE</color>
+    <color name="colorGrayYellow">#F0F0D8</color>
+
+    <color name="colorPink">#FF90A8</color>
+    <color name="colorBlue">#18A8D8</color>
+    <color name="colorLightGreen">#189090</color>
+    <color name="colorPurple">#dacaff</color>
+    <color name="colorLightBlue">#90C0F0</color>CADEFF
+
+    <color name="colorDeepGreen">#18C0A8</color>
+    <color name="colorDarkGreen">#16AD97</color>
+    <color name="colorDeepBlue">#1296db</color>
+    <color name="colorDarkBlue">#3e90c5</color>
+</resources>

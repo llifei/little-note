@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/memory_submit"-->
+        <!--android:title="@string/memory_submit"-->
+        <!--android:icon="@drawable/confirm"-->
+        <!--app:showAsAction="ifRoom|withText" />-->
+
+    <item
+        android:id="@+id/memory_insert_image"
+        android:title="@string/memory_insert_image" />
+
+    <item
+        android:id="@+id/memory_toolbar_delete"
+        android:title="@string/memory_delete" />
+
+    <!--<item-->
+        <!--android:id="@+id/memory_toolbar_delete"-->
+        <!--android:title="@string/memory_delete"/>-->
+
+    <!--<item-->
+        <!--android:id="@+id/memory_label"-->
+        <!--android:icon="@null"-->
+        <!--android:title="@string/memory_label" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/memory_share"-->
+        <!--android:title="@string/memory_share" />-->
+
+
+</menu>

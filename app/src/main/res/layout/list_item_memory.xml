@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_height="58sp"
+    tools:layout_editor_absoluteY="81dp"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:id="@+id/item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:text="时间"
+            android:textColor="@color/colorLightDark2"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/meno_title"
+            style="@style/MyCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="18dp"
+            android:background="@null"
+            android:ellipsize="end"
+            android:text="@null"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/memory_select_delete"
+            style="@style/MyDeleteCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="18dp"
+            android:background="@null"
+            android:text="@null"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/note_sign"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/blue_point_shape"
+            android:text="@null"
+            tools:ignore="MissingConstraints" />
+
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="18dp"
+            android:maxEms="12"
+            android:singleLine="true"
+            android:text="@null"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/item_zhiding_sign"
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:background="@color/colorLightBlue" />
+
+        <ImageView
+            android:id="@+id/item_remind_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            app:srcCompat="@drawable/alarm" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_menu"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toEndOf="@+id/item_layout"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/item_zhiding"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:background="@color/colorGray"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:src="@drawable/zhiding"
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentLeft="true" />
+
+        <ImageView
+            android:id="@+id/item_delete"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="60dp"
+            android:layout_toEndOf="@+id/item_zhiding"
+            android:background="#FFF55030"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:src="@drawable/item_delete"
+            android:layout_toRightOf="@+id/item_zhiding" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
